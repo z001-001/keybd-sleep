@@ -1,7 +1,13 @@
 [package]
 name = "keybd_sleep"
-version = "0.1.0"
+version = "2.0.0"
 edition = "2024"
+build = "build.rs"
+description = "KeybdSleep"
+
+[[bin]]
+name = "KeybdSleep"
+path = "src/main.rs"
 
 [dependencies]
 windows = { version = "0.52", features = [
@@ -9,3 +15,6 @@ windows = { version = "0.52", features = [
     "Win32_UI_WindowsAndMessaging",
     "Win32_Foundation",
 ] }
+
+[build-dependencies]
+winres = "0.1"

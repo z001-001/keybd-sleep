@@ -4,6 +4,7 @@ version = "2.0.0"
 edition = "2024"
 build = "build.rs"
 description = "KeybdSleep"
+license = "MIT"
 
 [[bin]]
 name = "KeybdSleep"

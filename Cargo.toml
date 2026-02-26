@@ -5,6 +5,7 @@ edition = "2024"
 build = "build.rs"
 description = "KeybdSleep"
 license = "MIT"
+authors = ["ISHIKAWA Hirokazu"]
 
 [[bin]]
 name = "KeybdSleep"
